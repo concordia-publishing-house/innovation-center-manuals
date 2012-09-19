@@ -1,0 +1,43 @@
+// Place all the styles related to the manuals controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#container {
+  
+  .row {
+    width: 100%;
+    margin: 30px 0;
+    
+    .left {
+      width: 33.3333%;
+      float: left;
+    }
+    .middle {
+      width: 33.3333%;
+      float: left;
+    }
+    .right {
+      width: 33.3333%;
+      float: left;
+    }
+  }
+  
+}
+
+.filler {
+  width:200px;
+  height:200px;
+  border: black 2px solid;
+  border-radius: 5px;
+  background: #0066CC;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.filler:hover {
+  background: #0066EE;
+  box-shadow: black 2px 1px 2px;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+}

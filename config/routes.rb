@@ -1,4 +1,9 @@
 InnovationCenterManuals::Application.routes.draw do
+  
+  get "manuals/index"
+
+  root :to => 'manuals#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

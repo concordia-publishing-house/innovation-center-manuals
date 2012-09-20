@@ -6,6 +6,7 @@
   
   .row {
     width: 100%;
+    min-width: 660px;
     margin: 30px 0;
     
     .left {
@@ -24,20 +25,27 @@
   
 }
 
+.row-fluid { max-width: 1100px; }
+
 .filler {
   width:200px;
   height:200px;
-  border: black 2px solid;
-  border-radius: 5px;
-  background: #0066CC;
   margin: 0 auto;
   cursor: pointer;
+  
+  img { 
+    overflow:hidden;
+    border-radius: 10px; 
+  }
+  
 }
-.filler:hover {
-  background: #0066EE;
-  box-shadow: black 2px 1px 2px;
+.filler img:hover {
+  box-shadow: black 2px 1px 7px;
 }
 .title {
   text-align: center;
   font-weight: bold;
+  font-family: 'Cabin';
+  font-size: 16px;
+  margin-top: 5px;
 }
